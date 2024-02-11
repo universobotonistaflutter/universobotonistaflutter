@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>494160458755-2u619pb5kmpjilgbksbe3762om73uadf.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.494160458755-2u619pb5kmpjilgbksbe3762om73uadf</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>494160458755-2tknluonhm84l2a7ndhjb0o22cqhroi6.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCWooCT88TAM6FWuuk341zgySQNOGA6kIA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>494160458755</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.universo.botonista</string>
+	<key>PROJECT_ID</key>
+	<string>universo-botonista-flutterflow</string>
+	<key>STORAGE_BUCKET</key>
+	<string>universo-botonista-flutterflow.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:494160458755:ios:3f244db145fa70e4a0ca36</string>
+</dict>
+</plist>

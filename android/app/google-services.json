@@ -1,0 +1,70 @@
+{
+  "project_info": {
+    "project_number": "494160458755",
+    "project_id": "universo-botonista-flutterflow",
+    "storage_bucket": "universo-botonista-flutterflow.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494160458755:android:57ab681e963e12f3a0ca36",
+        "android_client_info": {
+          "package_name": "com.universo.botonista"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494160458755-2tknluonhm84l2a7ndhjb0o22cqhroi6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.universo.botonista",
+            "certificate_hash": "c2bc4b03c099b20313c5a2a24f14507cc1bcab38"
+          }
+        },
+        {
+          "client_id": "494160458755-s2dquhpq450q08on4j2023bikq4io68r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.universo.botonista",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "494160458755-t0k8e8vk75jqkjsqaku55kkd2qbaf5jb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.universo.botonista",
+            "certificate_hash": "5e524f9cacad879ee7f22c090907b465acedec82"
+          }
+        },
+        {
+          "client_id": "494160458755-1pa5akpnh1qcmo6glusor6mdbqpsvc30.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtZw6v91al0eaaXJ29LmQx8XKaLz8Ohlg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494160458755-1pa5akpnh1qcmo6glusor6mdbqpsvc30.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "494160458755-2u619pb5kmpjilgbksbe3762om73uadf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.universo.botonista"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

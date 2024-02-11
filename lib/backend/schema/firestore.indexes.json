@@ -1,0 +1,320 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "Fase",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "idChampion",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "orderFase",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Jogos",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "idChampion",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "idFase",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "rodadaNumero",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "mesaNumero",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Clube",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "UF_Club",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Nome",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Grupo",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "idFase",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tituloGrupo",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Participante",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "idGrupo",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "grupoPosicao",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "totalVitorias",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "totalSaldoGols",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "totalGolsPro",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "user",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "nome_federer",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "nome_club",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "created_time",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Participante",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "idGrupo",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "grupoPosicao",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Jogos",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "idChampion",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "idFase",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "rodadaNumero",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "grupoNome",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "mesaNumero",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Champion",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "dataCampeonatoCalender",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "data_torneio",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Ranking_Pontos",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "id_Ranking",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "id_Champion",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Colocacao",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Ranking_Pontos",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "id_Ranking",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Colocacao",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "ChampionTotalGeral",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "campeonatoPosicao",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "totalPontos",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Fase",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "idChampion",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "orderFase",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Jogos",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "idChampion",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "listaUsuario",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "faseNome",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "rodadaNumero",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Jogos",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "idChampion",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "data_jogo",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Champion",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "administrador",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Status",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "ConfiguraPontos",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "Colocacao",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Qtdade_Pontos",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Jogos",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "idChampion",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "listaUsuario",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "data_jogo",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": [
+    {
+      "collectionGroup": "fcm_tokens",
+      "fieldPath": "fcm_token",
+      "indexes": [
+        {
+          "order": "ASCENDING",
+          "queryScope": "COLLECTION_GROUP"
+        }
+      ]
+    }
+  ]
+}
